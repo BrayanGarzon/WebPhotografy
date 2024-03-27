@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
+:root{
+    --body-background-color: #080808;
+    --footer-background-color: #121212;
+    --footer-background-color-second: #000000;
+
+    --color-text-gris-claro: #949494;
+    --border-color: #3b3b3b;
+
+
+    --text-family-titles-oswald: "Oswald", sans-serif;
+    --text-family-text-lato: "Lato", sans-serif; 
+
+    --margin-containers-default: 0rem 20rem;
+}
+
+body, html{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-color: var(--body-background-color);
+}
