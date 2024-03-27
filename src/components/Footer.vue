@@ -58,7 +58,7 @@
 
 </template>
 
-<style scoped>
+<style>
    footer .contentFooter{
         width: 100%;
         height: 350px;

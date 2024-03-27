@@ -1,9 +1,9 @@
 <script setup>
-import Footer from '../components/Footer.vue'
+import Footersection from '../components/Footer.vue'
 </script>
 
 <template>
   <main>
-    <Footer/>   
+    <Footersection /> 
   </main>
 </template>

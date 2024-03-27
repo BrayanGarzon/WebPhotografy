@@ -28,7 +28,7 @@
 </div>
 </template>
 
-<style scoped>
+<style>
     .containersocial{
         width: 100%;
         height: auto;
