@@ -1,28 +1,14 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import NavBar from './views/NavBarView.vue'
-import SliderImages from './views/SliderImagesView.vue'
-import SocialMediaView from './views/SocialMediaView.vue'
-import FooterView from './views/FooterView.vue'
+
+
+import Home from './views/HomeView.vue'
 </script>
 
 <template>
   
-    <NavBar/>
-    <SliderImages/>
-    <SocialMediaView/>
-    <FooterView/>
-    <!--
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+    <router-view/>
 
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-    -->
- 
 
   
 </template>

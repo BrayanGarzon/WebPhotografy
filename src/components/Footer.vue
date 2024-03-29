@@ -198,8 +198,8 @@
         grid-template-rows: repeat(2, 1fr);
         grid-column-gap: 5px;
         grid-row-gap: 10px;
-        justify-items: center; /* Centra los elementos horizontalmente */
-        align-items: center; /* Centra los elementos verticalmente */
+        justify-items: end; 
+        align-items: center;
         
     }
     footer .contentFooter .content .item-4 .galery img{
@@ -208,7 +208,7 @@
         cursor: pointer;
     }
     footer .contentFooter .content .item-4 p{
-        margin-left: 19px;
+        margin-left: 38px;
     }
 
 

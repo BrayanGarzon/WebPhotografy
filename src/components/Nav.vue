@@ -6,12 +6,12 @@
 <nav>
     <!-- Contenido de tu barra de navegación -->
     <div class="logo">
-        <a href="#">
+        <router-link to="/">
             <img src="/public/logo.webp" alt="">
-        </a>
+        </router-link>
     </div>
     <ul>
-        <li><a href="#">About</a></li>
+        <li><router-link to="/About">About</router-link></li>
         <li><a href="#">Pricing</a></li>
         <li><a href="#">Blog</a></li>
         <li><a href="#">Team</a></li>
@@ -20,7 +20,7 @@
 </nav>
 </template>
 
-<style scoped>
+<style>
     /* Aquí van tus estilos específicos para el componente de navegación */
     .logo{
         cursor: pointer;
