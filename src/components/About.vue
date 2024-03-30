@@ -34,14 +34,54 @@ import Footer from './Footer.vue'
         </div>
 
         <div class="cards">
-            <div class="item-1"></div>
-            <div class="item-1"></div>
-            <div class="item-1"></div>
-            <div class="item-1"></div>
+            <div class="item-1">
+                <div class="title">
+                    <img src="https://ld-wp73.template-help.com/wordpress/prod_25520/v3/wp-content/uploads/2019/09/light_2.png" alt="">
+                    <p>PORTRAIT PHOTOS</p>
+                </div>
+                <div class="text">
+                    <p>Proin ultricies augue libero, faucibus elit elementum sed dolor felis, cursus non diam non, finibus feugiat dui, a facilisis urna a ex magna</p>
+                </div>
+            </div>
+
+
+            <div class="item-1">
+                <div class="title">
+                    <img src="https://ld-wp73.template-help.com/wordpress/prod_25520/v3/wp-content/uploads/2019/09/flower_1.png" alt="">
+                    <p>FASHION PHOTOS</p>
+                </div>
+                <div class="text">
+                    <p>Proin ultricies augue libero, faucibus elit elementum sed dolor felis, cursus non diam non, finibus feugiat dui, a facilisis urna a ex magna</p>
+                </div>
+            </div>
+
+            <div class="item-1">
+                <div class="title">
+                    <img src="https://ld-wp73.template-help.com/wordpress/prod_25520/v3/wp-content/uploads/2019/09/photo_1.png" alt="">
+                    <p>WEDDING PHOTOS</p>
+                </div>
+                <div class="text">
+                    <p>Proin ultricies augue libero, faucibus elit elementum sed dolor felis, cursus non diam non, finibus feugiat dui, a facilisis urna a ex magna</p>
+                </div>
+            </div>
+
+
+            <div class="item-1">
+                <div class="title">
+                    <img src="https://ld-wp73.template-help.com/wordpress/prod_25520/v3/wp-content/uploads/2019/09/circle.png" alt="">
+                    <p>TRAVEL PHOTOS</p>
+                </div>
+                <div class="text">
+                    <p>Proin ultricies augue libero, faucibus elit elementum sed dolor felis, cursus non diam non, finibus feugiat dui, a facilisis urna a ex magna</p>
+                </div>
+            </div>
         </div>
+
+
+
         
     </div>
-    <Footer class="Footer"/>
+    <Footer/>
 </template>
 
 <style>   
@@ -124,5 +164,43 @@ import Footer from './Footer.vue'
     color: var(--color-text-gris-claro);
     font-family: var(--text-family-text-lato);
 
+}
+
+.AboutContent .cards{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+}
+.AboutContent .cards .item-1{
+    width: 20%;
+}
+.AboutContent .cards .item-1 .title{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.AboutContent .cards .item-1 .title p{
+    color: white;
+    margin: 0;
+    font-family: var(--text-family-titles-oswald);
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+.AboutContent .cards .item-1 .text{
+    width: 100%;
+}
+.AboutContent .cards .item-1 .text p{
+    color: var(--color-text-gris-claro);
+    font-family: var(--text-family-text-lato);
+    font-size: 16px;
+    font-weight: 300;
 }
 </style>
